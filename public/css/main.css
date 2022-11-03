@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Nunito:wght@500;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Nunito", sans-serif;
+    background: #f5f5f5;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+}
+header img {
+    margin-top: 5rem;
+}
+nav {
+    background: #e2e8f0;
+
+    border: 1px solid #dadfe5;
+    max-width: 50rem;
+    margin: 1rem auto;
+    padding: 1rem 1.8rem;
+    border-radius: 1rem;
+}
+.fill{
+    max-width: 50rem;
+    background: #e2e8f0;
+    padding: 1rem 1.8rem;
+    margin: 0 auto 0 auto;
+    border-radius: 1rem;
+}
+.fill input{
+    width: 100%;
+    padding: 10px 1rem;
+    border: 1px solid #dadfe5;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.fill textarea{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #dadfe5;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.fill .btn-submit{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #dadfe5;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background: #30353a;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+}
+.breadcrump {
+    display: flex;
+    justify-content: space-between;
+}
+.single-article{
+    max-width: 50rem;
+    margin: 0 auto 0 auto;
+    padding: 1rem 1.8rem;
+    background: #e2e8f0;
+    border-radius: 1rem;
+}
+.articles table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem auto;
+    max-width: 50rem;
+    background: #fff;
+    border-bottom: 1px solid #b1b5ba;
+    
+}
+.articles th {
+    background: #e2e8f0;
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #b1b5ba;
+}
+.articles td {
+    padding: 1rem;
+    border-bottom: 1px solid #b1b5ba;
+    
+}
+.alert-success {
+    background: #72e6b9;
+    padding: 1rem;
+    border: 1px solid #dadfe5;
+    max-width: 50rem;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.btn-create {
+    background: #3a86f3;
+    padding: 5px 1rem;
+    border: 1px solid #dadfe5;
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+
+
+.btn-edit {
+    background: #3a86f3;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 0.3rem;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+.aksi {
+    display: flex;
+    align-items: center;
+    border:none;
+}
+.btn-delete{
+    background: #f33a3a;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 0.3rem;
+    box-shadow: none;
+    border: none;
+    font-size: 0.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-detail{
+    background: #89ffb0;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 0.3rem;
+    box-shadow: none;
+    border: none;
+    font-size: 0.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.invalid-feedback{
+    color: red;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #e2e8f0;
+    border-radius: 1rem;
+    max-width: 50rem;
+
+    margin: 40px auto 100px auto;
+}
